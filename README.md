@@ -1,5 +1,5 @@
 # ScuphUtilities
-Additional plugin for the TotalFreedom server!
+Additional plugin for the ScuphGaming
 
 
 
