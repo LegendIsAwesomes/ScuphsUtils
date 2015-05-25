@@ -2,6 +2,7 @@ package com.scuph.scuphsutilities;
 
 import com.scuph.scuphsutilities.listeners.ScuphsUtilitiesListener;
 import com.scuph.scuphsutilities.commands.Command_owner;
+import com.scuph.scuphsutilities.commands.Command_staff;
 import com.scuph.scuphsutilities.commands.Command_iwantadmin;
 import com.scuph.scuphsutilities.commands.Command_developer;
 import com.scuph.scuphsutilities.commands.Command_information;
@@ -42,6 +43,7 @@ public class ScuphsUtilities extends BukkitPlugin {
         handler.setCommandLocation(Command_information.class.getPackage());
         handler.setCommandLocation(Command_owner.class.getPackage());
         handler.setCommandLocation(Command_iwantadmin.class.getPackage());
+        handler.setCommandLocation(Command_staff.class.getPackage());
         handler.setCommandLocation(Command_welcome.class.getPackage());
         handler.setCommandLocation(Command_requesthelp.class.getPackage());
         handler.setCommandLocation(Command_developer.class.getPackage());
