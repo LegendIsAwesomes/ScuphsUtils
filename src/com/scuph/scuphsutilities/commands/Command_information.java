@@ -17,11 +17,7 @@ public YamlConfig config;
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         sender.sendMessage(ChatColor.GREEN + "This plugin was made by Scuph, made for the ScuphGaming server!");
         sender.sendMessage(ChatColor.RED + "This plugin's version is " + plugin.getVersion() + ".");
-<<<<<<< HEAD
-        sender.sendMessage(ChatColor.RED + "We currently don't have a website/forum.");
-=======
-        sender.sendMessage(ChatColor.RED + "We currently don't have a website/forum.")
->>>>>>> origin/master
+        sender.sendMessage(ChatColor.RED + "Our forums are located at http://ScuphGaming.Boards.net.");
         return true;
     }
     
