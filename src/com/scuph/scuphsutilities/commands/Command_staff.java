@@ -8,7 +8,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-@CommandPermissions(source = SourceType.ANY, permission = "utils.dev")
+@CommandPermissions(source = SourceType.ANY, permission = "utils.staff")
 public class Command_staff extends BukkitCommand<ScuphsUtilities> {   
 
     @Override
