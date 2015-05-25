@@ -14,6 +14,11 @@ commands:
         description: Find the server's developers
         aliases: dev
         permission: utils.dev
+    staff:
+        usage: /<command>
+        description: Find the server's staff team
+        aliases: staffteam
+        permission: utils.staff
     welcome:
         usage: /<command>
         description: Do this when a new player joins.
