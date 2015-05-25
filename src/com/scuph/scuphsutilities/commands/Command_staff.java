@@ -13,7 +13,7 @@ public class Command_staff extends BukkitCommand<ScuphsUtilities> {
 
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        sender.sendMessage(ChatColor.DARK_PURPLE + "Scuph - Owner and Lead Developer of ScuphsUtilities");
+        sender.sendMessage(ChatColor.DARK_RED + "Scuph - Owner of ScuphGaming " + ChatColor.AQUA + "and " + ChatColor.DARK_PURPLE + "Lead Developer of ScuphsUtilities");
         return true;
     }
     
